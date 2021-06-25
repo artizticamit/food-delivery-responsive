@@ -1,0 +1,68 @@
+/* Navugation  */
+#navbar{ 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+/* home sectiion  */
+#home{
+    height: 366px;
+    padding: 10px 10pxpx;
+}
+#home::before{
+    height: 489px;
+
+}
+
+#home p{
+    font-size: 12px;
+}
+
+
+
+/* services section  */
+#services{
+
+    flex-direction: column;
+}
+#services .box img{
+    height: 135px;
+}
+
+
+
+
+
+/* clients section   */
+#clients{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+
+/* Contact section  */
+#contact-box form{
+    width: 60%;
+}
+
+
+/* Tooter  */
+
+
+/* Utility section  */
+.h-primary{
+    font-size: 26px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 10px;
+}
+.h-primary{
+    font-size: 2.8rem;
+}
